@@ -26,7 +26,6 @@ public abstract class AbstractSpeedControllerBlock extends Block {
     @Override
     protected void createBlockStateDefinition(
             StateDefinition.Builder<Block, BlockState> builder) {
-
         builder.add(POWERED);
     }
 
